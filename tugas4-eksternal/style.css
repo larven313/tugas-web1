@@ -1,0 +1,106 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+header {
+    height: 40px; 
+    background: #d1d1d1; 
+    padding-top: 20px;
+}
+
+#bg-nav {
+    background: #d1d1d1;
+}
+
+.logo {
+    float: left; 
+    margin-left: 25px;
+}
+
+#nav {
+    text-align: center; 
+    margin-left: 100px;
+}
+
+#cart {
+    float: right; 
+    margin-right: 25px;
+}
+
+article {
+    display: grid; 
+    grid-template-columns: 75% auto;
+    padding: 3em 1em;
+}
+
+.container {
+    padding-right: 30px; 
+    height: 460px;
+}
+
+
+article .container span table tr td {
+    width: 300px;
+}
+
+.summary {
+    background:#d1d1d1; 
+    padding-left: 15px; 
+    height: 280px;
+}
+
+.count {
+    margin-left: 2px; 
+    font-size: 18px;
+}
+
+.content-sum{
+    padding-right: 5px;
+}
+#subtotal {
+    width: 300px; 
+    height: 30px;
+}
+
+#shipping {
+    height: 35px;
+}
+
+#tax{
+    height: 20px;
+}
+
+.btn-apply{
+    width: 69px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer-site{
+    float: left; 
+    margin-left: 25px;
+}
+
+.footer-category{
+    text-align: center; 
+    margin-left: 100px;
+}
+
+.invite {
+    float: right; margin-right: 25px;
+}
+
+.email {
+    border: 1px solid black; 
+    float: right; 
+    margin-right: 25px;
+}
+
+.subscribe{
+    color: white; 
+    background-color: grey;
+}

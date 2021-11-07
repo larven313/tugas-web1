@@ -1,0 +1,33 @@
+body{
+    padding: 20px;
+}
+
+.container{
+    width: 69%;
+}
+
+.container table tr td {
+    width: 350px;
+}
+
+.email {
+    margin-left: 65px;
+}
+
+.telp {
+    margin-left: 40px;
+}
+
+.audio {
+    width: 33%; 
+    float: left;
+}
+
+.lorem {
+    width: 33%; 
+    float: right;
+}
+
+.video{
+    width: 33%; float: right;
+}
