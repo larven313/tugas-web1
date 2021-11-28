@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            background: pink;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            text-align: center;
+        }
+        header, footer{
+            background: rgb(152, 215, 218);
+            height: 50px;
+            width: 100%;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            margin: 15px 0px 15px 0px;
+            
+        }
+        aside{
+            background:cadetblue ;
+            height: 500px;
+            width: 29%;
+            margin-right: 15px;
+            
+        }
+
+        aside > p {
+            margin-top: 200px;
+        }
+
+        article{
+            background: rgb(253, 121, 121);
+            width:100% ;
+            
+        }
+        article > .img{
+            display: flex;
+            margin-left: 64px;
+            justify-content: center;
+            
+        }
+        article > .img > img {
+            width: 300px ;
+            height: 200px;
+            
+        }
+        article > p{
+            margin-top: 200px;
+        }
+
+        article > .img > div {
+            background: lightslategray;
+            width: 250px;
+            height: 250px;
+            margin: 5px;
+            line-height: 220px;
+        }
+
+        header > p {
+            margin-top: 20px;
+        }
+        footer > p {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+        <header><p>Header</p></header>
+    <div class="container">
+        <aside>
+            <p>Aside</p>
+        </aside>
+        <article>
+            <p>Article</p>
+            <div class="img">
+                <div>Image</div>
+                <div>Image</div>
+                <div>Image</div>
+        </div>
+        </article>
+    </div>
+        <footer><p>Footer</p></footer>
+</body>
+</html>
