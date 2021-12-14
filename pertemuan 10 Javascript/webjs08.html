@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <script>
+        function konversi(){
+            let rupiah = document.getElementById("rupiah").value
+            let dolar = rupiah /  14650
+            
+            let area_hasil = document.getElementById("hasil")
+            area_hasil.innerHTML = dolar+"$"
+        }
+    </script>
+</head>
+<body>
+    <label for="uang">Masukkan uang rupiah</label>
+    <input type="number" name="rupiah" id="rupiah">
+    <button onclick="konversi()">Konversi</button>
+    <br>
+    <p>Hasilnya adalah <span id="hasil"></span></p>
+</body>
+</html>

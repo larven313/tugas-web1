@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung jumlah dua bilangan</title>
+
+    <script>
+        function hasil(){
+            let bilangan1 = Number(document.getElementById("bil1").value)
+            let bilangan2 = Number(document.getElementById("bil2").value)
+            let hasil =bilangan1  +bilangan2 
+            
+            let area_hasil 
+            document.getElementById("hasil").value = hasil
+
+ 
+
+            
+
+        }
+    </script>
+</head>
+<body>
+    
+    <input type="number" size="10" id="bil1" onchange="hasil()" >
+    <br>
+    <input type="number" size="10" id="bil2" onchange="hasil()" >
+    <br>
+    <span>=</span>
+    <br>
+    <input type="text"  id="hasil" readonly>
+    <!-- <span id="hasil"></span> -->
+    <br>
+    
+    
+
+</body>
+</html>
